@@ -1,0 +1,14 @@
+    <br><br>
+
+  <form class="form_container" action="/fetch" method="post">
+    Busca los tweets de un usuario: &nbsp&nbsp&nbsp&nbsp
+    <input type="text" name="tweet">
+
+    <button>Enviar</button>
+  </form>
+
+<% if @error %>
+<br>
+<div style="color:red">Usuario no encontrado verifica tu busqueda</div>
+<% end %>
+  
